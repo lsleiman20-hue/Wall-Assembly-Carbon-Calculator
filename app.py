@@ -136,8 +136,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": -2.508,
     "unit": "kgCO₂e/m²",
     "method": "Area",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Exterior Cladding",
@@ -146,18 +144,14 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": -0.352,
     "unit": "kgCO₂e/m²",
     "method": "Area",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Exterior Cladding",
-    "name": "Brick - Clay Masonry Products, Glen-Gery",
+    "name": "Brick , Glen-Gery",
     "emitted": 30.7,
     "stored": 0.0,
     "unit": "kgCO₂e/m²",
     "method": "Area",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Exterior Cladding",
@@ -166,8 +160,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m²",
     "method": "Area",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 m² brick/clay masonry product area"
   },
   {
     "category": "Exterior Cladding",
@@ -176,8 +168,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m²",
     "method": "Area",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Exterior Cladding",
@@ -186,18 +176,14 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": -1.85,
     "unit": "kgCO₂e/m²",
     "method": "Area",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Exterior Cladding",
-    "name": "Hardie Panel / Architectural Panel, James Hardie",
+    "name": "Hardie Panel, Architectural Panel, James Hardie",
     "emitted": 7.51,
     "stored": -1.85,
     "unit": "kgCO₂e/m²",
     "method": "Area",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 m² installed panel"
   },
   {
     "category": "Exterior Cladding",
@@ -206,132 +192,99 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": -1.85,
     "unit": "kgCO₂e/m²",
     "method": "Area",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 m² installed panel"
   },
   {
     "category": "Exterior Cladding",
-    "name": "Formica® Compact® PROTEC+ 4mm, Nemho",
+    "name": "Formica Compact PROTEC+ 4mm, Nemho",
     "emitted": 15.5,
     "stored": -7.29,
     "unit": "kgCO₂e/m²",
     "method": "Area",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
+
   },
   {
     "category": "Exterior Cladding",
-    "name": "Trespa® Meteon® EDS grade - 8mm, Nemho",
+    "name": "Trespa Meteon EDS grade - 8mm, Nemho",
     "emitted": 18.8,
     "stored": -15.1,
     "unit": "kgCO₂e/m²",
     "method": "Area",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 m² finished 8 mm HPL panel"
   },
   {
     "category": "Exterior Cladding",
-    "name": "Meteon® EDF grade 6mm, Trespa International B.V",
+    "name": "Meteon EDF grade 6mm, Trespa International",
     "emitted": 19.9,
     "stored": -9.13,
     "unit": "kgCO₂e/m²",
     "method": "Area",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Exterior Cladding",
     "name": "Fundermax Max Compact Exterior",
     "emitted": 24.0,
     "stored": -8.85,
-    "unit": "kgCO₂e/unit",
-    "method": "Unit Grid",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
+    "unit": "kgCO₂e/m²",
+    "method": "Area",
   },
   {
     "category": "Exterior Cladding",
-    "name": "Trespa Meteon HPL, Trespa International B.V",
+    "name": "Trespa Meteon HPL, Trespa International",
     "emitted": 26.5,
     "stored": -12.0,
     "unit": "kgCO₂e/m²",
     "method": "Area",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Attachment System",
     "name": "Ancon Masonry Support Systems, Leviat Ltd",
-    "emitted": 2.7,
+    "emitted": 21.6,
     "stored": 0.0,
-    "unit": "kgCO₂e/kg",
-    "method": "Mass by Grammage",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 kg masonry support system"
+    "unit": "kgCO₂e/m",
+    "method": "Linear Members",
   },
   {
     "category": "Attachment System",
     "name": "Thin Tech Elite Cladding System, Glen-Gery",
-    "emitted": 0.4889,
+    "emitted":35.95,
     "stored": 0.0,
-    "unit": "kgCO₂e/kg",
-    "method": "Mass by Grammage",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
+    "unit": "kgCO₂e/m²",
+    "method": "Area",
   },
   {
     "category": "Attachment System",
-    "name": "CFS Adjustable Masonry Support AMS, Construction Fixing Systems Limited",
-    "emitted": 6.267,
+    "name": "CFS Adjustable Masonry Support, Construction Fixing Systems Limited",
+    "emitted": 84.9,
     "stored": 0.0,
-    "unit": "kgCO₂e/kg",
-    "method": "Mass by Grammage",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
+    "unit": "kgCO₂e/m",
+    "method": "Linear Members",
   },
   {
     "category": "Attachment System",
     "name": "Windpost, IG Masonry Support",
-    "emitted": 8.582,
+    "emitted": 890,
     "stored": 0.0,
-    "unit": "kgCO₂e/kg",
-    "method": "Mass by Grammage",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
+    "unit": "kgCO₂e/unit",
+    "method": "Unit Grid",
   },
   {
     "category": "Attachment System",
-    "name": "Reveal Support Plate (RSP), IG Masonry Support",
-    "emitted": 8.785,
+    "name": "Reveal Support Plate, IG Masonry Support",
+    "emitted": 5.71,
     "stored": 0.0,
-    "unit": "kgCO₂e/kg",
-    "method": "Mass by Grammage",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
+    "unit": "kgCO₂e/unit",
+    "method": "Unit Grid",
   },
   {
     "category": "Attachment System",
-    "name": "Welded Masonry Support System (WMS)",
-    "emitted": 8.907,
+    "name": "Welded Masonry Support System, IG Masonry Support",
+    "emitted": 141,
     "stored": 0.0,
-    "unit": "kgCO₂e/m³",
-    "method": "Volume Layer",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
+    "unit": "kgCO₂e/unit",
+    "method": "Unit Grid",
   },
   {
     "category": "Attachment System",
     "name": "Wood Strapping, Roseburg Forest Products",
-    "emitted": 0.05,
-    "stored": -0.96,
-    "unit": "kgCO₂e/m",
-    "method": "Linear Members",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
-  },
-  {
-    "category": "Attachment System",
-    "name": "North American Softwood Lumber — Wood Strapping",
     "emitted": 63.12,
     "stored": -708.33,
     "unit": "kgCO₂e/m³",
@@ -346,8 +299,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m",
     "method": "Linear Members",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Attachment System",
@@ -356,18 +307,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m",
     "method": "Linear Members",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
-  },
-  {
-    "category": "Attachment System",
-    "name": "GREENGirt — accurate sheet value",
-    "emitted": 5.675853018372703,
-    "stored": 0.0,
-    "unit": "kgCO₂e/m",
-    "method": "Linear Members",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 linear foot GREENGirt"
   },
   {
     "category": "Attachment System",
@@ -381,63 +320,27 @@ PRESET_MATERIALS = json.loads(r"""[
   },
   {
     "category": "Attachment System",
-    "name": "KWS® PanelRail® and RevealRail, Knight Wall Systems",
+    "name": "KWS PanelRail and RevealRail, Knight Wall Systems",
     "emitted": 6.619,
     "stored": 0.0,
     "unit": "kgCO₂e/m",
     "method": "Linear Members",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Attachment System",
-    "name": "Knight Wall MFI® Cladding Support System",
+    "name": "MFI Cladding Support System, Knight Wall",
     "emitted": 6.561679790026246,
     "stored": 0.0,
     "unit": "kgCO₂e/m",
     "method": "Linear Members",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "0.6096 m (24 linear in) support system"
   },
   {
     "category": "Attachment System",
-    "name": "Sotech Optima XTR Contour Plank Secret Fix Cladding System, Sotech",
-    "emitted": 10.8,
-    "stored": 0.0,
-    "unit": "kgCO₂e/m",
-    "method": "Linear Members",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
-  },
-  {
-    "category": "Attachment System",
-    "name": "CLADDING, BATTENS LIGHT, BATTENS 5",
-    "emitted": 12.35,
-    "stored": 0.0,
-    "unit": "kgCO₂e/m",
-    "method": "Linear Members",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
-  },
-  {
-    "category": "Attachment System",
-    "name": "Sigma Clips — generic primary aluminum",
-    "emitted": 14.8,
+    "name": "Cladding Rails, Generic Primary Aluminum",
+    "emitted": 9.68,
     "stored": 0.0,
     "unit": "kgCO₂e/kg",
     "method": "Mass by Grammage",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 kg primary aluminum"
-  },
-  {
-    "category": "Attachment System",
-    "name": "Cladding Rails — generic primary aluminum",
-    "emitted": 14.8,
-    "stored": 0.0,
-    "unit": "kgCO₂e/kg",
-    "method": "Mass by Grammage",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 kg primary aluminum"
   },
   {
     "category": "Insulation",
@@ -446,8 +349,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": -8.377,
     "unit": "kgCO₂e/m² at R/RSI",
     "method": "Insulation R-value",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Insulation",
@@ -456,18 +357,14 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m² at R/RSI",
     "method": "Insulation R-value",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Insulation",
-    "name": "EcoBatt® and EcoRoll® Insulation, Knauf Insulation, Inc.",
+    "name": "EcoBatt and EcoRoll Insulation, Knauf Insulation",
     "emitted": 0.997,
     "stored": 0.0,
     "unit": "kgCO₂e/m² at R/RSI",
     "method": "Insulation R-value",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Insulation",
@@ -476,8 +373,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": -9.354,
     "unit": "kgCO₂e/m² at R/RSI",
     "method": "Insulation R-value",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Insulation",
@@ -486,8 +381,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m² at R/RSI",
     "method": "Insulation R-value",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Insulation",
@@ -496,8 +389,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m² at R/RSI",
     "method": "Insulation R-value",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Insulation",
@@ -506,18 +397,14 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m² at R/RSI",
     "method": "Insulation R-value",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Insulation",
-    "name": "PIMA Polyiso Wall Insulation, R=14.6",
-    "emitted": 8.07,
+    "name": "PIMA Polyiso Wall Insulation",
+    "emitted": 4.16,
     "stored": 0.0,
     "unit": "kgCO₂e/m² at R/RSI",
     "method": "Insulation R-value",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 m² wall polyiso at R=14.6"
   },
   {
     "category": "Insulation",
@@ -526,8 +413,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m² at R/RSI",
     "method": "Insulation R-value",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Insulation",
@@ -536,38 +421,30 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m² at R/RSI",
     "method": "Insulation R-value",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 m² insulation at RSI=1 m²K/W"
   },
   {
     "category": "Insulation",
-    "name": "TimberBatt™ Wood Fiber Batt Insulation, TimberHP",
+    "name": "TimberBatt Wood Fiber Batt Insulation, TimberHP",
     "emitted": 0.0,
     "stored": -2.47,
     "unit": "kgCO₂e/m² at R/RSI",
     "method": "Insulation R-value",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 m² insulation at RSI=1 m²K/W"
   },
   {
     "category": "Stud and Backup Framing",
-    "name": "Wood Stud — North American Softwood Lumber",
+    "name": "Wood Stud, North American Softwood Lumber",
     "emitted": 63.12,
     "stored": -708.33,
     "unit": "kgCO₂e/m³",
     "method": "Wood Stud Framing",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 m³ softwood lumber"
   },
   {
     "category": "Stud and Backup Framing",
-    "name": "Steel Stud — Cold-Formed Steel Framing Industry Average",
+    "name": "Steel Stud, Cold-Formed Steel Framing Industry Average",
     "emitted": 2.44,
     "stored": 0.0,
     "unit": "kgCO₂e/kg",
     "method": "Steel Stud Framing",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 metric ton CFS framing (converted to kg)"
   },
   {
     "category": "Moisture and Air Control",
@@ -576,38 +453,30 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m²",
     "method": "Area",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 m² membrane"
   },
   {
     "category": "Sheathing",
-    "name": "Plywood / 1/2 in / AWC & CWC Industry Average",
+    "name": "Plywood, Industry Average",
     "emitted": 219.32,
     "stored": -862.9,
     "unit": "kgCO₂e/m³",
     "method": "Volume Layer",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 m³ softwood plywood"
   },
   {
     "category": "Sheathing",
-    "name": "5/8 in DensGlass Fireguard Sheathing Gypsum Panel",
-    "emitted": 4.886815329186214,
+    "name": " 5/8" DensGlass Fireguard Sheathing Gypsum Panel",
+    "emitted": 5.4,
     "stored": 0.0,
     "unit": "kgCO₂e/m²",
     "method": "Area",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 MSF (1,000 ft²) converted to m²"
   },
   {
     "category": "Masonry and Concrete",
-    "name": "CMU: G-Mix NW STD CMU, Genest Concrete Works Inc.",
+    "name": "CMU, Genest Concrete Works Inc.",
     "emitted": 129.0,
     "stored": 0.0,
     "unit": "kgCO₂e/m³",
     "method": "Volume Layer",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Masonry and Concrete",
@@ -616,8 +485,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m³",
     "method": "Volume Layer",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Masonry and Concrete",
@@ -626,8 +493,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m³",
     "method": "Volume Layer",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Masonry and Concrete",
@@ -636,8 +501,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m³",
     "method": "Volume Layer",
-    "source": "Existing calculator preset",
-    "source_declared_unit": ""
   },
   {
     "category": "Masonry and Concrete",
@@ -646,38 +509,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m³",
     "method": "Volume Layer",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 m³ concrete masonry mix/product"
-  },
-  {
-    "category": "Masonry and Concrete",
-    "name": "Mortar — Included in Brick EPD",
-    "emitted": 0.0,
-    "stored": 0.0,
-    "unit": "kgCO₂e/m²",
-    "method": "Area",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "Included in brick EPD"
-  },
-  {
-    "category": "Masonry and Concrete",
-    "name": "Type S Masonry Mortar — 250 kgCO₂e/m³",
-    "emitted": 250.0,
-    "stored": 0.0,
-    "unit": "kgCO₂e/m³",
-    "method": "Volume Layer",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 m³ masonry mortar"
-  },
-  {
-    "category": "Masonry and Concrete",
-    "name": "Type S Masonry Mortar — 145 kgCO₂e/m³",
-    "emitted": 145.0,
-    "stored": 0.0,
-    "unit": "kgCO₂e/m³",
-    "method": "Volume Layer",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 m³ masonry mortar"
   },
   {
     "category": "Reinforcing and Ties",
@@ -686,8 +517,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/kg",
     "method": "Mass by Item Grid",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 metric ton steel ties (converted to kg)"
   },
   {
     "category": "Reinforcing and Ties",
@@ -696,8 +525,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/kg",
     "method": "Mass by Grammage",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 metric ton reinforcing steel (converted to kg)"
   },
   {
     "category": "Finish",
@@ -706,8 +533,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m²",
     "method": "Area",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 m² 5/8 in Type X gypsum board"
   },
   {
     "category": "Finish",
@@ -716,8 +541,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/kg",
     "method": "Mass by Grammage",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 kg plaster/finish"
   },
   {
     "category": "Finish",
@@ -726,8 +549,6 @@ PRESET_MATERIALS = json.loads(r"""[
     "stored": 0.0,
     "unit": "kgCO₂e/m²",
     "method": "Area",
-    "source": "Verified against 2026_06_29 New Beam Results",
-    "source_declared_unit": "1 m² painted coating"
   }
 ]""")
 
@@ -794,7 +615,6 @@ R_TO_RSI = 0.1761101838
 def new_material() -> dict[str, Any]:
     return {
         "id": uuid.uuid4().hex,
-        "use": "Yes",
         "category": "Exterior Cladding",
         "preset": "",
         "custom_name": "",
@@ -969,16 +789,9 @@ def calculate_material(assembly: dict[str, Any], material: dict[str, Any]) -> di
             grammage = float(inputs.get("grammage_kg_m2", 0.0))
             if grammage <= 0:
                 raise ValueError("Enter material grammage in kg/m².")
-            spacing_factor = 1.0
-            if inputs.get("adjust_spacing", "No") == "Yes":
-                reference_spacing = float(inputs.get("reference_spacing_in", 0.0))
-                actual_spacing = float(inputs.get("actual_spacing_in", 0.0))
-                if reference_spacing <= 0 or actual_spacing <= 0:
-                    raise ValueError("Enter both reference and actual spacing.")
-                spacing_factor = reference_spacing / actual_spacing
-            quantity = area_m2 * grammage * spacing_factor
+            quantity = area_m2 * grammage
             quantity_unit = "kg"
-            note = "area (m²) × grammage (kg/m²) × reference spacing ÷ actual spacing"
+            note = "area (m²) × grammage (kg/m²) "
 
         elif method == "Mass by Volume + Density":
             thickness_in = float(inputs.get("thickness_in", 0.0))
