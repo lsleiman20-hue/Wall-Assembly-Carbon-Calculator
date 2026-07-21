@@ -155,7 +155,7 @@ st.markdown(
         width: 100%;
         min-height: 42px;
         background: #FFFFFF !important;
-        color: #86048A !important;
+        color: #002F65 !important;
         border: 1px solid rgba(255,255,255,0.75) !important;
         border-radius: 10px !important;
         box-shadow: none !important;
@@ -192,7 +192,7 @@ st.markdown(
       }
       [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button {
         background: #F5F7FA !important;
-        color: #86048A !important;
+        color: #002F65 !important;
         border: 1px solid #CCD6E0 !important;
       }
       [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button p,
