@@ -22,18 +22,17 @@ from openpyxl.utils import get_column_letter
 # =============================================================================
 
 st.set_page_config(
-    page_title="Wall Carbon Calculator",
-    page_icon="🌿",
+    page_title="Wall Assembly Carbon Calculator",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
 COLORS = {
-    "blue": "#234058",
-    "blue_2": "#355972",
+    "blue": "#002F65",
+    "blue_2": "#006EED",
     "amber": "#E49B32",
-    "green": "#708150",
-    "red": "#C15A3C",
+    "green": "#C0D83F",
+    "red": "#86048A",
     "cream": "#F7F5F0",
     "paper": "#FFFFFF",
     "ink": "#24313A",
@@ -132,7 +131,7 @@ st.markdown(
 PRESET_MATERIALS = json.loads(r"""[
   {
     "category": "Exterior Cladding",
-    "name": "Clay Brick RT207, Randers Tegl A/S",
+    "name": "Clay Brick , Randers Tegl",
     "emitted": 11.56,
     "stored": -2.508,
     "unit": "kgCO₂e/m²",
