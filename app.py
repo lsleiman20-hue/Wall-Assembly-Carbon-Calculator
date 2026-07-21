@@ -136,14 +136,14 @@ st.markdown(
         width: 100%;
         min-height: 42px;
         background: #FFFFFF !important;
-        color: #002F65 !important;
+        color: #86048A !important;
         border: 1px solid rgba(255,255,255,0.75) !important;
         border-radius: 10px !important;
         box-shadow: none !important;
       }
       [data-testid="stSidebar"] .stButton > button:hover,
       [data-testid="stSidebar"] .stDownloadButton > button:hover {
-        background: #F1F5F9 !important;
+        background: #86048A !important;
         border-color: #C0D83F !important;
       }
       [data-testid="stSidebar"] .stButton > button p,
@@ -155,7 +155,7 @@ st.markdown(
       [data-testid="stSidebar"] button:disabled,
       [data-testid="stSidebar"] button:disabled p,
       [data-testid="stSidebar"] button:disabled span:not([data-testid="stIconMaterial"]) {
-        color: #718096 !important;
+        color: #86048A !important;
         background: #E9EEF3 !important;
         opacity: 1 !important;
       }
