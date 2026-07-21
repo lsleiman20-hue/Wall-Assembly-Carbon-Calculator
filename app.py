@@ -197,7 +197,7 @@ st.markdown(
       }
       [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button p,
       [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button span:not([data-testid="stIconMaterial"]) {
-        color: #86048A !important;
+        color: #002F65 !important;
       }
 
       [data-testid="stMetric"] {
