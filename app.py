@@ -48,17 +48,17 @@ STARTING_CATEGORIES = [
     "Stud and Framing",
     "Moisture and Air Control",
     "Sheathing",
-    "Other",
+    "Finishes",
 ]
 
 CATEGORY_DESCRIPTIONS = {
     "Exterior Cladding": "Exterior finish materials, including brick, panels, CMU, and concrete masonry.",
-    "Attachment System": "Rails, clips, supports, reinforcing, ties, and other attachment components.",
-    "Insulation": "Continuous, cavity, batt, board, and other thermal insulation.",
+    "Attachment System": "Rails, clips, supports, reinforcing, ties, and Finishes attachment components.",
+    "Insulation": "Continuous, cavity, batt, board, and Finishes thermal insulation.",
     "Stud and Framing": "Wood studs, steel studs, backup framing, and strapping used as framing.",
     "Moisture and Air Control": "Air barriers, vapor control layers, and weather-resistive membranes.",
-    "Sheathing": "Plywood, gypsum sheathing, and other wall sheathing products.",
-    "Other": "Interior finishes or any material that does not fit the main wall-layer groups.",
+    "Sheathing": "Plywood, gypsum sheathing, and Finishes wall sheathing products.",
+    "Finishes": "Interior finishes",
 }
 
 CATEGORY_COLORS = {
@@ -68,7 +68,7 @@ CATEGORY_COLORS = {
     "Stud and Framing": "#2D5C8C",
     "Moisture and Air Control": "#6C8DB3",
     "Sheathing": "#A44CA8",
-    "Other": "#667085",
+    "Finishes": "#667085",
 }
 
 st.markdown(
@@ -735,7 +735,7 @@ PRESET_MATERIALS: list[dict[str, Any]] = [{'category': 'Exterior Cladding',
   'method': 'Mass by Grammage',
   'source': 'Preset material library',
   'source_declared_unit': ''},
- {'category': 'Other',
+ {'category': 'Finishes',
   'name': 'Gold Bond / Industry-Average 5/8 in Type X Gypsum Board',
   'emitted': 2.98,
   'stored': 0.0,
@@ -743,7 +743,7 @@ PRESET_MATERIALS: list[dict[str, Any]] = [{'category': 'Exterior Cladding',
   'method': 'Area',
   'source': 'Preset material library',
   'source_declared_unit': ''},
- {'category': 'Other',
+ {'category': 'Finishes',
   'name': 'Gypsum Plaster Finish / Kal-Kore Substitute',
   'emitted': 0.12,
   'stored': 0.0,
@@ -751,7 +751,7 @@ PRESET_MATERIALS: list[dict[str, Any]] = [{'category': 'Exterior Cladding',
   'method': 'Mass by Grammage',
   'source': 'Preset material library',
   'source_declared_unit': ''},
- {'category': 'Other',
+ {'category': 'Finishes',
   'name': 'Acrylic Latex Paint — generic substitute',
   'emitted': 2.19,
   'stored': 0.0,
@@ -823,16 +823,16 @@ CATEGORY_ALIASES = {
     "Masonry and Concrete": "Exterior Cladding",
     "Reinforcing and Ties": "Attachment System",
     "Stud and Backup Framing": "Stud and Framing",
-    "Finish": "Other",
+    "Finish": "Finishes",
 }
 
-CUSTOM_PRESET_NAMES = {"Custom EPD", "Other (custom EPD)"}
+CUSTOM_PRESET_NAMES = {"Custom EPD", "Finishes (custom EPD)"}
 EMPTY_PRESET_NAMES = {"", "None", None}
 
 
 def normalized_category(category: str | None) -> str:
-    value = CATEGORY_ALIASES.get(category or "Other", category or "Other")
-    return value if value in STARTING_CATEGORIES else "Other"
+    value = CATEGORY_ALIASES.get(category or "Finishes", category or "Finishes")
+    return value if value in STARTING_CATEGORIES else "Finishes"
 
 
 def new_material(category: str, is_base: bool = False) -> dict[str, Any]:
@@ -866,7 +866,7 @@ def normalize_material(material: dict[str, Any]) -> dict[str, Any]:
     preset = material.get("preset")
     if preset in EMPTY_PRESET_NAMES:
         material["preset"] = "None"
-    elif preset == "Other (custom EPD)":
+    elif preset == "Finishes (custom EPD)":
         material["preset"] = "Custom EPD"
     material.setdefault("is_base", False)
     material.setdefault("custom_name", "")
@@ -991,7 +991,7 @@ def member_count(span_ft: float, spacing_in: float, include_edges: str) -> int:
 def effective_epd(material: dict[str, Any]) -> dict[str, Any] | None:
     if material.get("preset") in CUSTOM_PRESET_NAMES:
         return {
-            "category": material.get("category", "Other"),
+            "category": material.get("category", "Finishes"),
             "name": material.get("custom_name", "").strip() or "Custom material",
             "emitted": float(material.get("custom_emitted", 0.0)),
             "stored": float(material.get("custom_stored", 0.0)),
@@ -1021,7 +1021,7 @@ def calculate_material(assembly: dict[str, Any], material: dict[str, Any]) -> di
         "emitted_intensity": 0.0,
         "net_intensity": 0.0,
         "name": material.get("custom_name") or material.get("preset") or "Unselected material",
-        "category": material.get("category", "Other"),
+        "category": material.get("category", "Finishes"),
         "method": "",
         "unit": "",
         "formula_note": "",
