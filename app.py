@@ -108,7 +108,7 @@ st.markdown(
       .stApp { background: #F5F7FA; color: #17253A; }
       [data-testid="stHeader"] { background: rgba(245, 247, 250, 0.92); }
       [data-testid="stSidebar"] {
-        background: #86048A;
+        background: #002F65;
         border-right: 0;
       }
 
