@@ -169,7 +169,7 @@ st.markdown(
       [data-testid="stSidebar"] .stButton > button span:not([data-testid="stIconMaterial"]),
       [data-testid="stSidebar"] .stDownloadButton > button p,
       [data-testid="stSidebar"] .stDownloadButton > button span:not([data-testid="stIconMaterial"]) {
-        color: #86048A !important;
+        color: #002F65 !important;
       }
       [data-testid="stSidebar"] button:disabled,
       [data-testid="stSidebar"] button:disabled p,
