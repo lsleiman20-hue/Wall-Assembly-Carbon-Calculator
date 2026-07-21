@@ -213,7 +213,7 @@ st.markdown(
       .hero {
         position: relative;
         overflow: hidden;
-        background: linear-gradient(122deg, #002F65 0%, #002F65 5%, #86048A 130%);
+        background: linear-gradient(122deg, #002F65 0%, #002F65 5%, #86048A 150%);
         border-radius: 20px;
         padding: 28px 30px;
         margin-bottom: 20px;
