@@ -173,7 +173,7 @@ st.markdown(
         width: 100%;
         min-height: 42px;
         background: #FFFFFF !important;
-        color: #86048A !important;
+        color: #002F65 !important;
         border: 1px solid rgba(255,255,255,0.75) !important;
         border-radius: 10px !important;
         box-shadow: none !important;
@@ -187,7 +187,7 @@ st.markdown(
       [data-testid="stSidebar"] .stButton > button span:not([data-testid="stIconMaterial"]),
       [data-testid="stSidebar"] .stDownloadButton > button p,
       [data-testid="stSidebar"] .stDownloadButton > button span:not([data-testid="stIconMaterial"]) {
-        color: #86048A !important;
+        color: #002F65 !important;
       }
       [data-testid="stSidebar"] button:disabled,
       [data-testid="stSidebar"] button:disabled p,
@@ -210,12 +210,12 @@ st.markdown(
       }
       [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button {
         background: #F5F7FA !important;
-        color: #86048A !important;
+        color: #002F65 !important;
         border: 1px solid #CCD6E0 !important;
       }
       [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button p,
       [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button span:not([data-testid="stIconMaterial"]) {
-        color: #86048A !important;
+        color: #002F65 !important;
       }
 
       [data-testid="stMetric"] {
@@ -231,7 +231,7 @@ st.markdown(
       .hero {
         position: relative;
         overflow: hidden;
-        background: linear-gradient(122deg, #002F65 0%, #002F65 64%, #86048A 130%);
+        background: linear-gradient(122deg, #002F65 0%, #002F65 20%, #86048A 130%);
         border-radius: 20px;
         padding: 28px 30px;
         margin-bottom: 20px;
