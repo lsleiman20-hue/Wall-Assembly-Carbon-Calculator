@@ -113,7 +113,7 @@ st.markdown(
       .stApp { background: #F5F7FA; color: #17253A; }
       [data-testid="stHeader"] { background: rgba(245, 247, 250, 0.92); }
       [data-testid="stSidebar"] {
-        background: #86048A;
+        background: #002F65;
         border-right: 0;
       }
 
@@ -187,7 +187,7 @@ st.markdown(
       [data-testid="stSidebar"] .stButton > button span:not([data-testid="stIconMaterial"]),
       [data-testid="stSidebar"] .stDownloadButton > button p,
       [data-testid="stSidebar"] .stDownloadButton > button span:not([data-testid="stIconMaterial"]) {
-        color: #86048A !important;
+        color: #002F65 !important;
       }
       [data-testid="stSidebar"] button:disabled,
       [data-testid="stSidebar"] button:disabled p,
@@ -210,12 +210,12 @@ st.markdown(
       }
       [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button {
         background: #F5F7FA !important;
-        color: #86048A !important;
+        color: #002F65 !important;
         border: 1px solid #CCD6E0 !important;
       }
       [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button p,
       [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button span:not([data-testid="stIconMaterial"]) {
-        color: #86048A !important;
+        color: #002F65 !important;
       }
 
       [data-testid="stMetric"] {
