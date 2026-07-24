@@ -2930,17 +2930,14 @@ else:
     )
 
     guides = [
-        ("Area", "kgCO₂e/m²", "Quantity = wall area in m²"),
-        ("Volume Layer", "kgCO₂e/m³", "Quantity = wall area in m² × thickness in metres"),
-        ("Mass — total kg or grammage", "kgCO₂e/kg", "Option 1: carbon = EPD GWP × total mass. Option 2: mass = wall area in m² × grammage in kg/m², then carbon = EPD GWP × mass"),
-        ("Mass by Volume + Density", "kgCO₂e/kg", "Mass = wall area in m² × thickness in metres × density in kg/m³"),
-        ("Mass by Item Grid", "kgCO₂e/kg", "Mass = grid columns × grid rows × mass per item"),
-        ("Mass by Linear Weight", "kgCO₂e/kg", "Mass = member count × member length in metres × kg/m"),
-        ("Linear Members", "kgCO₂e/m", "Length = member count × member length in metres"),
-        ("Unit Grid", "kgCO₂e/unit", "Choose whether horizontal and/or vertical spacing applies. Units = horizontal count × vertical count; an unused direction contributes a factor of 1."),
-        ("Insulation R-value", "kgCO₂e/m² at R/RSI", "Equivalent area = wall area in m² × required RSI ÷ EPD reference RSI"),
-        ("Wood Stud Framing", "kgCO₂e/m³", "Volume = stud count × wall height × actual lumber cross-section"),
-        ("Steel Stud Framing", "kgCO₂e/kg", "Mass = total stud length × approximate C-section steel area × steel density"),
+        ("Area", "kgCO₂e/m²", "GWP = EPD Emitted / m² × wall area in m²"),
+        ("Volume Layer", "kgCO₂e/m³", "GWP = EPD Emitted / m³ ×  wall area in m² × thickness in meters × conversion inch to meters"),
+        ("Mass - total kg or grammage", "kgCO₂e/kg", "Option 1: GWP = EPD Emitted /kg × total mass. Option 2: GWP = EPD Emitted /kg × wall area in m² × grammage in kg/m²),
+        ("Linear Members", "kgCO₂e/m", "GWP = EPD Emitted /m × member count × member length in meters"),
+        ("Unit Grid", "kgCO₂e/unit", "GWP = EPD Emitted /m × member count × member length in meters"),
+        ("Insulation R-value", "kgCO₂e/m² at R/RSI", "GWP = EPD Emitted /m² × required RSI ÷ EPD reference RSI"),
+        ("Wood Stud Framing", "kgCO₂e/m³", "GWP = EPD Emitted / m³×  stud count × wall height × actual lumber cross-section"),
+        ("Steel Stud Framing", "kgCO₂e/kg", "GWP = total stud length × approximate C-section steel area × steel density"),
     ]
 
     for method, unit, formula in guides:
