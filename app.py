@@ -2932,7 +2932,7 @@ else:
     guides = [
         ("Area", "kgCO₂e/m²", "GWP = EPD Emitted / m² × wall area in m²"),
         ("Volume Layer", "kgCO₂e/m³", "GWP = EPD Emitted / m³ ×  wall area in m² × thickness in meters × conversion inch to meters"),
-        ("Mass - total kg or grammage", "kgCO₂e/kg", "Option 1: GWP = EPD Emitted /kg × total mass. Option 2: GWP = EPD Emitted /kg × wall area in m² × grammage in kg/m²),
+        ("Mass - total kg or grammage", "kgCO₂e/kg", "Option 1: GWP = EPD Emitted /kg × total mass. Option 2: GWP = EPD Emitted /kg × wall area in m² × grammage in kg/m²"),
         ("Linear Members", "kgCO₂e/m", "GWP = EPD Emitted /m × member count × member length in meters"),
         ("Unit Grid", "kgCO₂e/unit", "GWP = EPD Emitted /m × member count × member length in meters"),
         ("Insulation R-value", "kgCO₂e/m² at R/RSI", "GWP = EPD Emitted /m² × required RSI ÷ EPD reference RSI"),
